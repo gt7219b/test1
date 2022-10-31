@@ -1,0 +1,103 @@
+[0.202s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.202s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f39b40fcd30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f39b40fc7c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f39b40fc7c0>>)
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.238s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.256s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'cpp_joystickSubscriber'
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.291s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'cpp_joystickSubscriber' build argument 'cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'cpp_joystickSubscriber' build argument 'cmake_target' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'cpp_joystickSubscriber' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'cpp_joystickSubscriber' build argument 'cmake_clean_cache' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'cpp_joystickSubscriber' build argument 'cmake_clean_first' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'cpp_joystickSubscriber' build argument 'cmake_force_configure' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'cpp_joystickSubscriber' build argument 'ament_cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'cpp_joystickSubscriber' build argument 'catkin_cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'cpp_joystickSubscriber' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.380s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_joystickSubscriber' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/build/cpp_joystickSubscriber', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber', 'merge_install': False, 'path': '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber', 'symlink_install': False, 'test_result_base': None}
+[0.380s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.386s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.386s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber' with build type 'ament_cmake'
+[0.387s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber'
+[0.392s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.393s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.393s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.413s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/build/cpp_joystickSubscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/build/cpp_joystickSubscriber -- -j4 -l4
+[11.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/build/cpp_joystickSubscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/build/cpp_joystickSubscriber -- -j4 -l4
+[11.260s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/build/cpp_joystickSubscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/build/cpp_joystickSubscriber
+[11.288s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_joystickSubscriber)
+[11.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/build/cpp_joystickSubscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/build/cpp_joystickSubscriber
+[11.296s] Level 1:colcon.colcon_core.environment:checking '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber' for CMake module files
+[11.297s] Level 1:colcon.colcon_core.environment:checking '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber' for CMake config files
+[11.297s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_joystickSubscriber', 'cmake_prefix_path')
+[11.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/cpp_joystickSubscriber/hook/cmake_prefix_path.ps1'
+[11.320s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/cpp_joystickSubscriber/hook/cmake_prefix_path.dsv'
+[11.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/cpp_joystickSubscriber/hook/cmake_prefix_path.sh'
+[11.340s] Level 1:colcon.colcon_core.environment:checking '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/lib'
+[11.340s] Level 1:colcon.colcon_core.environment:checking '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/bin'
+[11.340s] Level 1:colcon.colcon_core.environment:checking '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/lib/pkgconfig/cpp_joystickSubscriber.pc'
+[11.341s] Level 1:colcon.colcon_core.environment:checking '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/lib/python3.10/site-packages'
+[11.341s] Level 1:colcon.colcon_core.environment:checking '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/bin'
+[11.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/cpp_joystickSubscriber/package.ps1'
+[11.345s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/cpp_joystickSubscriber/package.dsv'
+[11.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/cpp_joystickSubscriber/package.sh'
+[11.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/cpp_joystickSubscriber/package.bash'
+[11.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/cpp_joystickSubscriber/package.zsh'
+[11.349s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/colcon-core/packages/cpp_joystickSubscriber)
+[11.386s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_joystickSubscriber)
+[11.391s] Level 1:colcon.colcon_core.environment:checking '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber' for CMake module files
+[11.392s] Level 1:colcon.colcon_core.environment:checking '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber' for CMake config files
+[11.392s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_joystickSubscriber', 'cmake_prefix_path')
+[11.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/cpp_joystickSubscriber/hook/cmake_prefix_path.ps1'
+[11.396s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/cpp_joystickSubscriber/hook/cmake_prefix_path.dsv'
+[11.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/cpp_joystickSubscriber/hook/cmake_prefix_path.sh'
+[11.397s] Level 1:colcon.colcon_core.environment:checking '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/lib'
+[11.397s] Level 1:colcon.colcon_core.environment:checking '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/bin'
+[11.397s] Level 1:colcon.colcon_core.environment:checking '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/lib/pkgconfig/cpp_joystickSubscriber.pc'
+[11.398s] Level 1:colcon.colcon_core.environment:checking '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/lib/python3.10/site-packages'
+[11.398s] Level 1:colcon.colcon_core.environment:checking '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/bin'
+[11.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/cpp_joystickSubscriber/package.ps1'
+[11.403s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/cpp_joystickSubscriber/package.dsv'
+[11.404s] INFO:colcon.colcon_core.shell:Creating package script '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/cpp_joystickSubscriber/package.sh'
+[11.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/cpp_joystickSubscriber/package.bash'
+[11.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/cpp_joystickSubscriber/package.zsh'
+[11.406s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/colcon-core/packages/cpp_joystickSubscriber)
+[11.407s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.407s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.407s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.407s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.417s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.417s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.417s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.440s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.443s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/local_setup.ps1'
+[11.444s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/_local_setup_util_ps1.py'
+[11.447s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/setup.ps1'
+[11.449s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/local_setup.sh'
+[11.450s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/_local_setup_util_sh.py'
+[11.450s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/setup.sh'
+[11.452s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/local_setup.bash'
+[11.453s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/setup.bash'
+[11.455s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/local_setup.zsh'
+[11.456s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/setup.zsh'

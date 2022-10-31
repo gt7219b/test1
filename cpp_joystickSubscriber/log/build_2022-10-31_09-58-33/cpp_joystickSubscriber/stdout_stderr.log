@@ -1,0 +1,34 @@
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[35m[1mConsolidate compiler generated dependencies of target talker2[0m
+[35m[1mConsolidate compiler generated dependencies of target listener2[0m
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/listener2.dir/src/subscriber_member_function2.cpp.o[0m
+[ 75%] Built target talker2
+[ 87%] Built target talker
+[ 75%] Built target listener
+[100%] [32m[1mLinking CXX executable listener2[0m
+[100%] Built target listener2
+-- Install configuration: ""
+-- Installing: /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/lib/cpp_joystickSubscriber/talker
+-- Set runtime path of "/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/lib/cpp_joystickSubscriber/talker" to ""
+-- Installing: /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/lib/cpp_joystickSubscriber/talker2
+-- Set runtime path of "/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/lib/cpp_joystickSubscriber/talker2" to ""
+-- Installing: /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/lib/cpp_joystickSubscriber/listener
+-- Set runtime path of "/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/lib/cpp_joystickSubscriber/listener" to ""
+-- Installing: /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/lib/cpp_joystickSubscriber/listener2
+-- Set runtime path of "/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/lib/cpp_joystickSubscriber/listener2" to ""
+-- Installing: /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/ament_index/resource_index/package_run_dependencies/cpp_joystickSubscriber
+-- Installing: /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/ament_index/resource_index/parent_prefix_path/cpp_joystickSubscriber
+-- Installing: /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/cpp_joystickSubscriber/environment/ament_prefix_path.sh
+-- Installing: /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/cpp_joystickSubscriber/environment/ament_prefix_path.dsv
+-- Installing: /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/cpp_joystickSubscriber/environment/path.sh
+-- Installing: /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/cpp_joystickSubscriber/environment/path.dsv
+-- Installing: /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/cpp_joystickSubscriber/local_setup.bash
+-- Installing: /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/cpp_joystickSubscriber/local_setup.sh
+-- Installing: /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/cpp_joystickSubscriber/local_setup.zsh
+-- Installing: /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/cpp_joystickSubscriber/local_setup.dsv
+-- Installing: /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/cpp_joystickSubscriber/package.dsv
+-- Installing: /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/ament_index/resource_index/packages/cpp_joystickSubscriber
+-- Installing: /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/cpp_joystickSubscriber/cmake/cpp_joystickSubscriberConfig.cmake
+-- Installing: /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/cpp_joystickSubscriber/cmake/cpp_joystickSubscriberConfig-version.cmake
+-- Installing: /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/cpp_joystickSubscriber/package.xml

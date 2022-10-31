@@ -1,0 +1,149 @@
+[0.000000] (-) TimerEvent: {}
+[0.000264] (cpp_joystickSubscriber) JobQueued: {'identifier': 'cpp_joystickSubscriber', 'dependencies': OrderedDict()}
+[0.000334] (cpp_joystickSubscriber) JobStarted: {'identifier': 'cpp_joystickSubscriber'}
+[0.013817] (cpp_joystickSubscriber) JobProgress: {'identifier': 'cpp_joystickSubscriber', 'progress': 'cmake'}
+[0.014633] (cpp_joystickSubscriber) JobProgress: {'identifier': 'cpp_joystickSubscriber', 'progress': 'build'}
+[0.015761] (cpp_joystickSubscriber) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/build/cpp_joystickSubscriber', '--', '-j4', '-l4'], 'cwd': '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/build/cpp_joystickSubscriber', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gt7219b'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gt7219b'), ('OLDPWD', '/home/gt7219b/ros2_ws/src/joystickSubscriber_git'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3966'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gt7219b'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gt7219b'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/desktopUbuntu:@/tmp/.ICE-unix/3376,unix/desktopUbuntu:/tmp/.ICE-unix/3376'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/375bdf39_cff8_42ce_afe7_a56cb0a47b4d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.65543'), ('SSH_AGENT_LAUNCHER', 'openssh'), ('SSH_AUTH_SOCK', '/run/user/1000/openssh_agent'), ('AMENT_PREFIX_PATH', '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/build/cpp_joystickSubscriber'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/gt7219b/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber:/opt/ros/humble')]), 'shell': False}
+[0.065835] (cpp_joystickSubscriber) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener2\x1b[0m\n'}
+[0.074754] (cpp_joystickSubscriber) StdoutLine: {'line': b'[ 25%] Built target talker\n'}
+[0.075206] (cpp_joystickSubscriber) StdoutLine: {'line': b'[ 50%] Built target talker2\n'}
+[0.075661] (cpp_joystickSubscriber) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[0.086306] (cpp_joystickSubscriber) StdoutLine: {'line': b'[ 87%] Built target listener2\n'}
+[0.098896] (-) TimerEvent: {}
+[0.199228] (-) TimerEvent: {}
+[0.299558] (-) TimerEvent: {}
+[0.399925] (-) TimerEvent: {}
+[0.500265] (-) TimerEvent: {}
+[0.600605] (-) TimerEvent: {}
+[0.700939] (-) TimerEvent: {}
+[0.801277] (-) TimerEvent: {}
+[0.901616] (-) TimerEvent: {}
+[1.001955] (-) TimerEvent: {}
+[1.102296] (-) TimerEvent: {}
+[1.202639] (-) TimerEvent: {}
+[1.302981] (-) TimerEvent: {}
+[1.403339] (-) TimerEvent: {}
+[1.503688] (-) TimerEvent: {}
+[1.604032] (-) TimerEvent: {}
+[1.704405] (-) TimerEvent: {}
+[1.804749] (-) TimerEvent: {}
+[1.905085] (-) TimerEvent: {}
+[2.005419] (-) TimerEvent: {}
+[2.105762] (-) TimerEvent: {}
+[2.206101] (-) TimerEvent: {}
+[2.306446] (-) TimerEvent: {}
+[2.406795] (-) TimerEvent: {}
+[2.507139] (-) TimerEvent: {}
+[2.607486] (-) TimerEvent: {}
+[2.707835] (-) TimerEvent: {}
+[2.808185] (-) TimerEvent: {}
+[2.908528] (-) TimerEvent: {}
+[3.008867] (-) TimerEvent: {}
+[3.109207] (-) TimerEvent: {}
+[3.209544] (-) TimerEvent: {}
+[3.309884] (-) TimerEvent: {}
+[3.410222] (-) TimerEvent: {}
+[3.510566] (-) TimerEvent: {}
+[3.610906] (-) TimerEvent: {}
+[3.711246] (-) TimerEvent: {}
+[3.811587] (-) TimerEvent: {}
+[3.911932] (-) TimerEvent: {}
+[4.012274] (-) TimerEvent: {}
+[4.112618] (-) TimerEvent: {}
+[4.212958] (-) TimerEvent: {}
+[4.313305] (-) TimerEvent: {}
+[4.413650] (-) TimerEvent: {}
+[4.513989] (-) TimerEvent: {}
+[4.614328] (-) TimerEvent: {}
+[4.714668] (-) TimerEvent: {}
+[4.815008] (-) TimerEvent: {}
+[4.915360] (-) TimerEvent: {}
+[5.015697] (-) TimerEvent: {}
+[5.116039] (-) TimerEvent: {}
+[5.216390] (-) TimerEvent: {}
+[5.316741] (-) TimerEvent: {}
+[5.417102] (-) TimerEvent: {}
+[5.517469] (-) TimerEvent: {}
+[5.617806] (-) TimerEvent: {}
+[5.718150] (-) TimerEvent: {}
+[5.818513] (-) TimerEvent: {}
+[5.918868] (-) TimerEvent: {}
+[6.019213] (-) TimerEvent: {}
+[6.119548] (-) TimerEvent: {}
+[6.219903] (-) TimerEvent: {}
+[6.320255] (-) TimerEvent: {}
+[6.420613] (-) TimerEvent: {}
+[6.520963] (-) TimerEvent: {}
+[6.621287] (-) TimerEvent: {}
+[6.721614] (-) TimerEvent: {}
+[6.821965] (-) TimerEvent: {}
+[6.922299] (-) TimerEvent: {}
+[7.022621] (-) TimerEvent: {}
+[7.122945] (-) TimerEvent: {}
+[7.223269] (-) TimerEvent: {}
+[7.323591] (-) TimerEvent: {}
+[7.423917] (-) TimerEvent: {}
+[7.524245] (-) TimerEvent: {}
+[7.624569] (-) TimerEvent: {}
+[7.724890] (-) TimerEvent: {}
+[7.825213] (-) TimerEvent: {}
+[7.925538] (-) TimerEvent: {}
+[8.025860] (-) TimerEvent: {}
+[8.126184] (-) TimerEvent: {}
+[8.226508] (-) TimerEvent: {}
+[8.326832] (-) TimerEvent: {}
+[8.427162] (-) TimerEvent: {}
+[8.527499] (-) TimerEvent: {}
+[8.627831] (-) TimerEvent: {}
+[8.728155] (-) TimerEvent: {}
+[8.828478] (-) TimerEvent: {}
+[8.928808] (-) TimerEvent: {}
+[9.029148] (-) TimerEvent: {}
+[9.129472] (-) TimerEvent: {}
+[9.229795] (-) TimerEvent: {}
+[9.330118] (-) TimerEvent: {}
+[9.430440] (-) TimerEvent: {}
+[9.530794] (-) TimerEvent: {}
+[9.631132] (-) TimerEvent: {}
+[9.731505] (-) TimerEvent: {}
+[9.831952] (-) TimerEvent: {}
+[9.932302] (-) TimerEvent: {}
+[10.032638] (-) TimerEvent: {}
+[10.132970] (-) TimerEvent: {}
+[10.233314] (-) TimerEvent: {}
+[10.333683] (-) TimerEvent: {}
+[10.413698] (cpp_joystickSubscriber) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[10.433835] (-) TimerEvent: {}
+[10.534206] (-) TimerEvent: {}
+[10.634567] (-) TimerEvent: {}
+[10.734908] (-) TimerEvent: {}
+[10.835263] (-) TimerEvent: {}
+[10.868606] (cpp_joystickSubscriber) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[10.882328] (cpp_joystickSubscriber) CommandEnded: {'returncode': 0}
+[10.920500] (cpp_joystickSubscriber) JobProgress: {'identifier': 'cpp_joystickSubscriber', 'progress': 'install'}
+[10.929820] (cpp_joystickSubscriber) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/build/cpp_joystickSubscriber'], 'cwd': '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/build/cpp_joystickSubscriber', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gt7219b'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gt7219b'), ('OLDPWD', '/home/gt7219b/ros2_ws/src/joystickSubscriber_git'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3966'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gt7219b'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gt7219b'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/desktopUbuntu:@/tmp/.ICE-unix/3376,unix/desktopUbuntu:/tmp/.ICE-unix/3376'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/375bdf39_cff8_42ce_afe7_a56cb0a47b4d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.65543'), ('SSH_AGENT_LAUNCHER', 'openssh'), ('SSH_AUTH_SOCK', '/run/user/1000/openssh_agent'), ('AMENT_PREFIX_PATH', '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/build/cpp_joystickSubscriber'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/gt7219b/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber:/opt/ros/humble')]), 'shell': False}
+[10.935358] (-) TimerEvent: {}
+[10.938886] (cpp_joystickSubscriber) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.939176] (cpp_joystickSubscriber) StdoutLine: {'line': b'-- Up-to-date: /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/lib/cpp_joystickSubscriber/talker\n'}
+[10.939760] (cpp_joystickSubscriber) StdoutLine: {'line': b'-- Up-to-date: /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/lib/cpp_joystickSubscriber/talker2\n'}
+[10.940259] (cpp_joystickSubscriber) StdoutLine: {'line': b'-- Installing: /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/lib/cpp_joystickSubscriber/listener\n'}
+[10.946280] (cpp_joystickSubscriber) StdoutLine: {'line': b'-- Set runtime path of "/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/lib/cpp_joystickSubscriber/listener" to ""\n'}
+[10.946598] (cpp_joystickSubscriber) StdoutLine: {'line': b'-- Up-to-date: /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/lib/cpp_joystickSubscriber/listener2\n'}
+[10.946792] (cpp_joystickSubscriber) StdoutLine: {'line': b'-- Up-to-date: /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/ament_index/resource_index/package_run_dependencies/cpp_joystickSubscriber\n'}
+[10.947009] (cpp_joystickSubscriber) StdoutLine: {'line': b'-- Up-to-date: /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/ament_index/resource_index/parent_prefix_path/cpp_joystickSubscriber\n'}
+[10.947217] (cpp_joystickSubscriber) StdoutLine: {'line': b'-- Up-to-date: /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/cpp_joystickSubscriber/environment/ament_prefix_path.sh\n'}
+[10.947409] (cpp_joystickSubscriber) StdoutLine: {'line': b'-- Up-to-date: /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/cpp_joystickSubscriber/environment/ament_prefix_path.dsv\n'}
+[10.947533] (cpp_joystickSubscriber) StdoutLine: {'line': b'-- Up-to-date: /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/cpp_joystickSubscriber/environment/path.sh\n'}
+[10.947734] (cpp_joystickSubscriber) StdoutLine: {'line': b'-- Up-to-date: /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/cpp_joystickSubscriber/environment/path.dsv\n'}
+[10.947883] (cpp_joystickSubscriber) StdoutLine: {'line': b'-- Up-to-date: /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/cpp_joystickSubscriber/local_setup.bash\n'}
+[10.948007] (cpp_joystickSubscriber) StdoutLine: {'line': b'-- Up-to-date: /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/cpp_joystickSubscriber/local_setup.sh\n'}
+[10.948145] (cpp_joystickSubscriber) StdoutLine: {'line': b'-- Up-to-date: /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/cpp_joystickSubscriber/local_setup.zsh\n'}
+[10.948268] (cpp_joystickSubscriber) StdoutLine: {'line': b'-- Up-to-date: /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/cpp_joystickSubscriber/local_setup.dsv\n'}
+[10.948391] (cpp_joystickSubscriber) StdoutLine: {'line': b'-- Installing: /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/cpp_joystickSubscriber/package.dsv\n'}
+[10.948522] (cpp_joystickSubscriber) StdoutLine: {'line': b'-- Up-to-date: /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/ament_index/resource_index/packages/cpp_joystickSubscriber\n'}
+[10.948646] (cpp_joystickSubscriber) StdoutLine: {'line': b'-- Up-to-date: /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/cpp_joystickSubscriber/cmake/cpp_joystickSubscriberConfig.cmake\n'}
+[10.948769] (cpp_joystickSubscriber) StdoutLine: {'line': b'-- Up-to-date: /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/cpp_joystickSubscriber/cmake/cpp_joystickSubscriberConfig-version.cmake\n'}
+[10.948892] (cpp_joystickSubscriber) StdoutLine: {'line': b'-- Up-to-date: /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/install/cpp_joystickSubscriber/share/cpp_joystickSubscriber/package.xml\n'}
+[10.950088] (cpp_joystickSubscriber) CommandEnded: {'returncode': 0}
+[11.028307] (cpp_joystickSubscriber) JobEnded: {'identifier': 'cpp_joystickSubscriber', 'rc': 0}
+[11.029255] (-) EventReactorShutdown: {}

@@ -1,0 +1,14 @@
+[0.016s] Invoking command in '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/build/cpp_joystickSubscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/build/cpp_joystickSubscriber -- -j4 -l4
+[0.060s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.073s] [ 50%] Built target talker2
+[0.073s] [ 50%] Built target talker
+[0.081s] [ 75%] Built target listener
+[0.082s] [ 87%] [32mBuilding CXX object CMakeFiles/listener2.dir/src/subscriber_member_function2.cpp.o[0m
+[0.347s] [01m[K/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/src/subscriber_member_function2.cpp:24:11:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/twist.hpp: No such file or directory
+[0.347s]    24 | # include [01;31m[K<geometry_msgs/msg/twist.hpp>[m[K
+[0.347s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.347s] compilation terminated.
+[0.350s] gmake[2]: *** [CMakeFiles/listener2.dir/build.make:76: CMakeFiles/listener2.dir/src/subscriber_member_function2.cpp.o] Error 1
+[0.351s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/listener2.dir/all] Error 2
+[0.351s] gmake: *** [Makefile:146: all] Error 2
+[0.355s] Invoked command in '/home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/build/cpp_joystickSubscriber' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gt7219b/ros2_ws/src/joystickSubscriber_git/cpp_joystickSubscriber/build/cpp_joystickSubscriber -- -j4 -l4
